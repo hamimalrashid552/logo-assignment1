@@ -133,6 +133,7 @@ h2 {
 
 .card-sec{
   display: flex;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
