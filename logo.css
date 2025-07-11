@@ -2,6 +2,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+
 }
 
 .header {
@@ -16,7 +17,7 @@ nav {
 
 }
 
-.primary-color{
+.primary-color {
   color: rgb(78, 71, 255);
 }
 
@@ -86,9 +87,13 @@ h2 {
 }
 
 .main {
-  background: rgba(78, 71, 255, 0.01);
+
   max-width: 1140px;
   margin: 0 auto;
+}
+
+#body {
+  background: rgba(75, 70, 237, 0.05);
 }
 
 .action-sec p {
@@ -115,13 +120,41 @@ h2 {
   height: 250px;
 }
 
-.info{
+.info {
   display: flex;
   justify-content: center;
   gap: 150px;
   line-height: 5px;
 }
 
-.info p{
+.info p {
   font-size: 20px;
+}
+
+.card-sec{
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+}
+
+.avatar {
+  border-radius: 45px;
+}
+
+.avater-div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.avater-description{
+  line-height: 5px;
 }
